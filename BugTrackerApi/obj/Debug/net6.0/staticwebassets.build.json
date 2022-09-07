@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "HsXc+ZwiXFLaXtKeN7sijRf21D1whb/kDDmlReqjvwE=",
+  "Source": "BugTrackerApi",
+  "BasePath": "_content/BugTrackerApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BugTrackerApi\\wwwroot",
+      "Source": "BugTrackerApi",
+      "ContentRoot": "C:\\Users\\kylem\\source\\repos\\BugTrackerApi\\BugTrackerApi\\wwwroot\\",
+      "BasePath": "_content/BugTrackerApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\kylem\\source\\repos\\BugTrackerApi\\BugTrackerApi\\wwwroot\\index.html",
+      "SourceId": "BugTrackerApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\kylem\\source\\repos\\BugTrackerApi\\BugTrackerApi\\wwwroot\\",
+      "BasePath": "_content/BugTrackerApi",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}
