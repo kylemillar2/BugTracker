@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+  --blue: #2563eb;
+}
+
+body {
+  font-family: 'Roboto';
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 0.9fr 4fr;
+  grid-template-rows: 0.9fr 5fr;
+  grid-template-areas:
+  "sidebar header"
+  "sidebar main";
+}
+
+app-header {
+  grid-area: header;
+}
+
+app-sidebar {
+  grid-area: sidebar;
+  background-color: var(--blue);
+}
+
+app-main {
+  grid-area: main
+}
