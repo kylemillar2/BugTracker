@@ -1,0 +1,53 @@
+:host {
+  grid-area: header;
+  box-shadow: 0 10px 15px -15px;
+  position: relative;
+}
+
+.header-container {
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  font-weight: 700;
+}
+
+.greeting-container {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "profile-pic greeting"
+    "profile-pic username";
+    column-gap: 16px;
+}
+
+.greeting-container img {
+  grid-area: profile-pic;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.greeting {
+  grid-area: "greeting";
+  align-self: center;
+}
+
+.greeting-username {
+  font-size: 1.3rem;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  align-self: flex-start;
+}
+
+.login-container img {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+}

@@ -1,0 +1,18 @@
+:host {
+  padding: 30px 20px;
+  background-color: var(--light-blue);
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bugs-grid {
+  display: grid;
+  height: 100%;
+  grid-template-columns: repeat(auto-fit, max(300px, 32%));
+  grid-auto-rows: 300px;
+  gap: 20px;
+}

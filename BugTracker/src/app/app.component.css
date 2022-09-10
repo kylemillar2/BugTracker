@@ -1,0 +1,20 @@
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 0.9fr 4fr;
+  grid-template-rows: 0.9fr 5fr;
+  grid-template-areas:
+    "sidebar header"
+    "sidebar main";
+}
+
+
+
+app-sidebar {
+  grid-area: sidebar;
+  background-color: var(--blue);
+}
+
+app-main {
+  grid-area: main
+}

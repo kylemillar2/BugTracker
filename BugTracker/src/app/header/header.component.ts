@@ -12,4 +12,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  username = "temporary-username";
+  profilePic = "../assets/images/default-profile.png";
+
 }
