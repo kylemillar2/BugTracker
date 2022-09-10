@@ -1,10 +1,13 @@
 :host {
   border-radius: 10px;
   box-shadow: -5px 0 #2563eb, 0 0 8px grey;
+  
   display: flex;
   flex-direction: column;
+
   gap: 10px;
   padding: 20px;
+
   background-color: white;
   transition: transform 0.3s ease-in-out;
 }
@@ -13,6 +16,7 @@
   transform: scale(1.03);
 }
 
-:host .empty {
-
+.bug-title {
+  font-size: 1.3rem;
+  font-weight: 700;
 }

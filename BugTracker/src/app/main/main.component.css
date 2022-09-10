@@ -9,6 +9,24 @@
   gap: 10px;
 }
 
+.bugs-grid-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.bugs-grid-title-container img {
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.bugs-grid-title-container {
+  display: flex;
+  gap: 16px;
+  
+}
+
 .bugs-grid {
   display: grid;
   height: 100%;
